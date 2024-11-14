@@ -12,15 +12,6 @@
     box-sizing: border-box;
 }
 
-/*body {
-    background-color: black;
-    color: white;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    height: 100%;
-    margin: 0;
-}*/
-
 header {
     background-color: var(--cor-terciaria);
     display: flex;
@@ -57,17 +48,12 @@ span {
     gap: 20px;
 }
 
-/*.menu ul li {
-    gap: 20px;
-}*/
-
 .menu ul li a {
     display: inline-block;
     text-decoration: none;
     color: white;
     font-size: 18px;
     padding: 3px 5px;
-    /*background-color: var(--cor-secundaria);*/
     border: 2px solid transparent;
     border-radius: 20px;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
