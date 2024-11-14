@@ -67,7 +67,7 @@ span {
     color: white;
     font-size: 18px;
     padding: 3px 5px;
-    background-color: var(--cor-secundaria);
+    /*background-color: var(--cor-secundaria);*/
     border: 2px solid transparent;
     border-radius: 20px;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
