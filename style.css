@@ -4,12 +4,18 @@
     --cor-primaria: #0f41e7;
     --cor-secundaria: #3d57ad;
     --cor-terciaria: #011863;
+    --cor-quartenaria: #0B35BE;
+    --cor-quintenaria: #2d323e;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-quintenaria);
 }
 
 header {
@@ -94,7 +100,7 @@ h1.logo {
 }
 
 .menu ul li .submenu li a:hover {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
     color: white;
     border: none;
 }
@@ -118,14 +124,53 @@ main {
     font-size: large;
 }
 
-section {
+section div{
+    display: inline-block;
     padding: 20px;
+    width: 80vh;
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.4);
+
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4),
+               2px 2px 4px rgba(0, 0, 0, 0.3),
+               3px 3px 6px rgba(0, 0, 0, 0.2),
+               4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    text-indent: 20px;
+    color: white;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+main div li {
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+main div li a {
+    color: white;
 }
 
 span.logo {
     font-size: 40px;
     margin-left: 3px;
     margin-right: 3px;
+}
+
+.icon {
+    width: 50px;
 }
 
 
